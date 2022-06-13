@@ -9,12 +9,25 @@ Instance-level recognition (ILR) for artworks is the task of recognising the spe
 
 This repository contains the code used for the thesis.
 
+File "EDA.ipynb" contains the exploratory data analysis performed prior to conducting the experiments.
+
 In order to run the code you will need to download:
  - the code from this repo
+ 
    git clone https://github.com/cosmina99/Master-thesis.git
+   
  - the required packages from requirements.txt
+
    pip install -r requirements.txt
+   
  - the Met Dataset which can be found at http://cmp.felk.cvut.cz/met - create a folder "images" in the "data" folder and download the dataset there
 
 To replicate the results:
 
+ 1. Extracting the features
+    - run the scripts in jobs/extract_descriptors for each model
+
+
+ 2. Evaluating the models
+    - descriptors will be downloaded in data/descriptors
+    - run the scripts in jobs/knn_evaluation for each model
