@@ -9,7 +9,12 @@ Instance-level recognition (ILR) for artworks is the task of recognising the spe
 
 This repository contains the code used for the thesis.
 
-In order to run the code you will need:
- - the required packages from requirements.txt,
- - the Met Dataset which can be found at http://cmp.felk.cvut.cz/met. 
+In order to run the code you will need to download:
+ - the code from this repo
+   git clone https://github.com/cosmina99/Master-thesis.git
+ - the required packages from requirements.txt
+   pip install -r requirements.txt
+ - the Met Dataset which can be found at http://cmp.felk.cvut.cz/met - create a folder "images" in the "data" folder and download the dataset there
+
+To replicate the results:
 
